@@ -190,7 +190,10 @@ textarea{
 
 @media(max-width:600px){
      .contato{
-        display:none
+     
+        top: 67% !important;
+        left: 78% !important;
+        font-size: 3.5vw ;
     }
     header .main-menu{
         display: none;
@@ -257,5 +260,8 @@ textarea{
     footer .social-midia img{
         width: 20%;
     }
-
+    .chef-img {
+        margin: -26px 5%;
+        width: 90%;
+    }   
 }
