@@ -189,11 +189,10 @@ textarea{
 **************************************/
 
 @media(max-width:600px){
-     .contato{
-     
-        top: 67% !important;
-        left: 78% !important;
-        font-size: 3.5vw ;
+     .contato{     
+    top: 43% !important;
+    left: 78% !important;
+    font-size: 4.5vw ;
     }
     header .main-menu{
         display: none;
@@ -264,4 +263,28 @@ textarea{
         margin: -26px 5%;
         width: 90%;
     }   
+    form{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        width: 100%;
+        position: absolute;
+        top: 23%;
+        left: 13%;
+    }
+    form input {        
+        margin-bottom: 3%;
+        height: 30px;
+        width: 64%;
+    }
+    form label {   
+        
+    margin-bottom: 3%;
+    height: 30px;
+    width: 78%;
+    font-size: 3.7vw;
+    }
+    form textarea{
+        width: 64%;
+        height: 11%;
+    }
 }
