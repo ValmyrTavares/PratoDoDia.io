@@ -146,6 +146,11 @@ footer .white-logo img {
 .content-text p{
     border:solid 1px black;
     padding:3%;
+    font-size:2.5vw;
+}
+.content-text h2{  
+    font-size:5vw;
+    margin: 2px auto;
 }
 /* *******************************8888
      PAGINA DE CONTATO
@@ -228,4 +233,29 @@ textarea{
     .receipe-content .main-receipe h1{
         font-size: 100%;
     }
+    .main-content h1{
+        font-size: 6.5vw;
+    }
+    .main-content main figure img {
+        width: 100%;
+        height: 80%;
+    }
+    .main-content main figure p {
+        font-size: 6vw;
+        margin: 0px;
+    }
+    .receipe-content .main-receipe h1{
+        font-size: 6.5vw;
+        margin: 1px auto;
+    }
+    footer .white-logo img {
+        width: 87%;
+    }
+    footer .social-midia {
+        width: 55%;
+    }
+    footer .social-midia img{
+        width: 20%;
+    }
+
 }
